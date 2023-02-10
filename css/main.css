@@ -1,0 +1,92 @@
+
+
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Lucida Console", Monaco, monospace;
+  background: #ffffff;
+}
+
+
+
+section {
+  text-align: center;
+}
+
+a {
+  color: #777;
+}
+
+p {
+  line-height: 1.5em;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 300;
+  border-bottom: 2px solid #fff;
+  line-height: 2.75rem;
+}
+
+header {
+  text-align: center;
+  padding: 2.5rem 1rem;
+  font-size: 0.85rem;
+}
+
+section.video {
+  line-height: 0;
+}
+
+section.main {
+  max-width: 35rem;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+  color: #7d7d7d;
+  line-height: 1.5em;
+  font-size: 0.75rem;
+}
+
+section.main p {
+  margin-bottom: 3rem;
+}
+
+
+.vidchaVideo {
+  max-width: 550px;
+  width: 100%;
+  margin-left: -400px;
+  margin-bottom: 100x;
+}
+
+.vidChapter {
+  padding: 10px;
+  float: left;
+}
+
+.vidChapter > * {
+  display:list-item ;
+ 
+  padding: 10px;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  cursor: pointer;
+  background: rgb(253, 223, 223);
+}
+
+.vidChapter > *:hover {
+  box-shadow: inset 0 0 0 2px rgba(0, 0, 0, 0.2);
+  color: #ff830f;
+  background-color: white;
+}
+
+.vidChapter .active {
+  background: #ffd900;
+  color: #f65058ff;
+}
+
+
